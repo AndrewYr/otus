@@ -1,5 +1,7 @@
-l_border = 18374403900871474942
-r_border = 9187201950435737471
+l_border = 0xFeFeFeFeFeFeFeFe
+nAB = 0xFcFcFcFcFcFcFcFc
+r_border = 0x7f7f7f7f7f7f7f7f
+nGH = 0x3f3f3f3f3f3f3f3f
 
 
 def get_result(x: int):
