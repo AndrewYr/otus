@@ -24,13 +24,13 @@ class IArray:
 
 new_i_array = IArray()
 start_time = time()
-for i in range(10000):
+for i in range(10001):
     new_i_array.add(i)
 print(time() - start_time)
 
 start_time = time()
-for i in range(10000):
+for i in range(10001):
     for index in sorted(new_i_array.lst, reverse=True):
-        del(new_i_array.lst[index])
+        new_i_array.remove(index)
 print(time() - start_time)
 
