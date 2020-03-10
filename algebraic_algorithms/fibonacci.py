@@ -19,6 +19,10 @@ def fib(n):
 # 4a. Через рекурсию
 print(fib(5))
 # время 1.2517999999999557e-05
+print(fib(10 ^ 5))
+print(fib(6))
+print(fib(7))
+
 print(fib(35))
 # время 2.216459865
 
@@ -34,6 +38,10 @@ def fib(n):
 # 4b. Через итерацию
 print(fib(5))
 # 7.856000000083796e-06
+print(fib(10 ^ 5))
+print(fib(6))
+print(fib(7))
+
 print(fib(35))
 # 9.912999999972527e-06
 
@@ -56,6 +64,10 @@ def fib_gold(n):
 # 4c. По формуле золотого сечения
 print(fib_gold(5))
 # 4.858000000051987e-06
+
+print(fib_gold(10 ^ 5))
+print(fib_gold(6))
+print(fib_gold(7))
 
 print(fib_gold(35))
 # 1.9446000000034047e-05
