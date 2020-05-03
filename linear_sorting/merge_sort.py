@@ -1,5 +1,5 @@
 from create_file import get_shuffle_list
-
+import datetime
 
 
 def merge(left, right):
@@ -31,5 +31,7 @@ def merge_sort(L):
         return merge(left, right)
 
 
+now = datetime.datetime.now()
 merge_sort(get_shuffle_list())
-# Время работы функции 0:00:00.586163
+print(datetime.datetime.now()-now)
+# Время работы функции 0:00:00.344401

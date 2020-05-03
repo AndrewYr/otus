@@ -17,20 +17,26 @@ def quicksort(nums):
 
 lst = [i for i in range(32)]
 random.shuffle(lst)
+now = datetime.now()
 quicksort(lst)
-# 0:00:00.000083
+print(datetime.now()-now)
+# 0:00:00.000067
 
 lst = [i for i in range(600)]
 random.shuffle(lst)
+now = datetime.now()
 quicksort(lst)
-# 0:00:00.001753
+print(datetime.now()-now)
+# 0:00:00.001537
 
 lst = [i for i in range(1024)]
 random.shuffle(lst)
+now = datetime.now()
 quicksort(lst)
-# 0:00:00.002498
+print(datetime.now()-now)
+# 0:00:00.002512
 
 start_time = datetime.now()
 quicksort(get_shuffle_list())
-# 0:00:00.218454
 print(datetime.now()-start_time)
+# 0:00:00.219771

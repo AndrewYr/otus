@@ -5,7 +5,7 @@ FILENAME = 'file.bin'
 def create_file():
     file = open(FILENAME, 'w')
     cur = 0
-    while cur <= 65535:
+    while cur <= 1000000000:
         file.write(str(cur)+'\n')
         cur += 1
     file.close()
