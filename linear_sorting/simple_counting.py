@@ -10,6 +10,7 @@ def simple_counting_sort(A):
     for number in range(scope):
         A += [number] * C[number]
 
-
+now = datetime.now()
 simple_counting_sort(get_shuffle_list())
-# 0:00:00.067102
+print(datetime.now()-now)
+# 0:00:12.894326

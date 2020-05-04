@@ -34,4 +34,4 @@ def merge_sort(L):
 now = datetime.datetime.now()
 merge_sort(get_shuffle_list())
 print(datetime.datetime.now()-now)
-# Время работы функции 0:00:00.344401
+# Время работы функции 0:01:21.232259

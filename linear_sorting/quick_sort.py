@@ -20,23 +20,23 @@ random.shuffle(lst)
 now = datetime.now()
 quicksort(lst)
 print(datetime.now()-now)
-# 0:00:00.000067
+# 0:00:00.000080
 
 lst = [i for i in range(600)]
 random.shuffle(lst)
 now = datetime.now()
 quicksort(lst)
 print(datetime.now()-now)
-# 0:00:00.001537
+# 0:00:00.001728
 
 lst = [i for i in range(1024)]
 random.shuffle(lst)
 now = datetime.now()
 quicksort(lst)
 print(datetime.now()-now)
-# 0:00:00.002512
+# 0:00:00.002794
 
 start_time = datetime.now()
 quicksort(get_shuffle_list())
 print(datetime.now()-start_time)
-# 0:00:00.219771
+# 0:00:56.853887
